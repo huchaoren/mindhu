@@ -232,7 +232,7 @@ a:hover {
     width: 110px;
     height: 200px;
     position: absolute;
-    left: 180px;
+    left: 340px;
     top: 30px;
 }
 
@@ -245,9 +245,9 @@ a:hover {
 
 #xiala>.djcz {
     width: 110px;
-    height: 200px;
+    height: 250px;
     position: absolute;
-    left: 310px;
+    left: 480px;
     top: 30px;
 }
 
@@ -262,7 +262,7 @@ a:hover {
     width: 110px;
     height: 200px;
     position: absolute;
-    left: 440px;
+    left: 620px;
     top: 30px;
 }
 
@@ -277,7 +277,7 @@ a:hover {
     width: 110px;
     height: 200px;
     position: absolute;
-    left: 570px;
+    left: 750px;
     top: 30px;
 }
 
@@ -292,7 +292,7 @@ a:hover {
     width: 110px;
     height: 200px;
     position: absolute;
-    left: 700px;
+    left: 880px;
     top: 30px;
 }
 
@@ -465,7 +465,8 @@ a:hover {
 
 #center {
     width: 1280px;
-    margin: 50px auto;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 #zxzx {
@@ -525,8 +526,6 @@ a:hover {
     width: 821px;
     float: left;
     position: relative;
-    top: 0;
-    left: 0;
 }
 
 #ssyg div.yg {
@@ -537,13 +536,28 @@ a:hover {
     top: 0;
 }
 
-#ssyg div.dq {
+
+/*#ssyg div.dq {
     display: block;
+}*/
+
+/*#ssyg div {
+    display: none;
+}*/
+#ssyg div.gfg {
+    width: 821px;
+    height: 370px;
+    position: absolute;
+    top: 0;
+    display:none;
+    /*display: none;*/
 }
 
-#ssyg div {
-    display: none;
-}
+
+/*
+#ssyg .curr_div {
+    display: block !important;
+}*/
 
 #ssyg div.yg img {
     margin-top: 25px;
@@ -600,17 +614,12 @@ a:hover {
     float: right;
 }
 
-#ssyg div.yg dl:hover {
-    color: #f0ca9d;
-}
-
 #ssyg div.gfgg {
     width: 821px;
     height: 370px;
     display: none;
     position: absolute;
     top: 0;
-    left: 0;
     /*display: none;*/
 }
 
@@ -668,14 +677,10 @@ a:hover {
     line-height: 30px;
 }
 
-#ssyg div.dq:hover {
-    background-color: #999;
-    color: #f0ca9d;
-}
-
 #ssyg div.gfggg {
     width: 821px;
     height: 370px;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -708,14 +713,14 @@ a:hover {
 #you {
     width: 400px;
     height: 390px;
-    float:left;
+    float: right;
     /*margin-right: 120px;*/
     /*margin-left: 60px;*/
 }
 
 #box {
-    width: 402px;
-    height: 214px;
+    width: 400px;
+    height: 284px;
     float: left;
 }
 
@@ -787,23 +792,11 @@ a:hover {
     cursor: pointer;
 }
 
-#you d {
-    float: left;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-#you c {
-    margin-top: 50px;
-    float: right;
-    cursor: pointer;
-}
-
 #you dl {
     width: 402px;
     height: 70px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 #you dl>dt {
@@ -875,9 +868,12 @@ a:hover {
 #sp {
     width: 1280px;
     float: left;
+    position: relative;
 }
 
 #sp div.spp {
+    position: absolute;
+    top: 0;
     height: 150px;
     width: 1280px;
 }
@@ -994,8 +990,151 @@ a:hover {
     display: none;
 }
 
+
+/*#sp div {
+    display: none;
+}*/
+
 #sp div.spp {
     display: block;
+}
+
+#sp div.sspp {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 150px;
+    width: 1280px;
+}
+
+
+/*#sp .spp>div.spt:hover{
+	opacity:0.6;
+	background-color:#ccc;
+	color:#F30;
+}*/
+
+#sp .sspp>div.spt ss {
+    width: 183px;
+    height: 139px;
+    opacity: 0.6;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    color: #f0ca9d;
+    display: none;
+}
+
+#sp .sspp>div.spt cc {
+    border-left: 10px solid #900;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    display: none;
+}
+
+#sp .sspp>div.spt s {
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    border: 3px dashed #F00;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: none;
+}
+
+#sp .sspp>div.spt {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 10px;
+    position: relative;
+}
+
+#sp>div.sspp>div {
+    margin-top: 10px;
+    float: left;
+}
+
+#sp>div.sspp>div.spt h1 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+}
+
+#sp>div.sspp h2 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp h3 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp h4 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp h5 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp h6 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp h1 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#sp>div.sspp>div.l {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+#sp>div.sspp>div.ll {
+    margin-right: 34px;
+}
+
+#yytj div.llgd {
+    position: absolute;
+    bottom: 0;
+    width: 1280px;
+    height: 40px;
+    background-color: #999;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 2%;
+}
+
+#yytj div.llgd b {
+    color: #f0ca9d;
+}
+
+#yytj div.llgd:hover {
+    background-color: #666;
 }
 
 #yytj div.llgd {
@@ -1021,13 +1160,97 @@ a:hover {
 }
 
 #bottom {
-    width: 1280px;
+    width: 100%;
     height: 153px;
-    margin: 10px auto;
+    margin-top: 30px;
+    position: relative;
 }
 
-#bottom img {
+#bottom p img {
+    width: 100%;
+    height: 180px;
+    background-size: 100% 100%;
+}
+
+#dblr {
     width: 1280px;
-    height: 153px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+#bottom .btz {
+    width: 822px;
+    height: 20px;
+    float: right;
+    margin-top: 45px;
+}
+
+#bottom .btz li {
     float: left;
+    font-style: normal;
+    width: 80px;
+    height: 20px;
+    margin-right: 2px;
+    color: #568193;
+}
+
+#bottom .btz li a {
+    font-size: 12px;
+    color: #568193;
+    text-decoration: none;
+}
+
+#bottom h1 {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 458px;
+    top: 60px;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    color: #568193;
+    cursor: pointer;
+}
+
+#bottom h2 {
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 458px;
+    top: 80px;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    color: #415967;
+}
+
+#bottom h3 {
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 458px;
+    top: 100px;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    color: #415967;
+}
+
+#bottom h4 {
+    width: 750px;
+    height: 20px;
+    position: absolute;
+    left: 458px;
+    top: 120px;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    color: #A5A5A5;
+}
+
+#bottom h4 a {
+    color: #415967;
 }

@@ -126,25 +126,37 @@ window.onload = function() {
 				}
 			
 		}*/
-    var oCenter = document.getElementById('center');
-    var ozxzx = document.getElementById('zxzx');
-    var aLol = document.getElementById('zhxw').getElementsByTagName('li');
-    var aYgg = document.getElementById('ssyg').getElementsByTagName('div');
-    var p = 0;
-    var Long = aLol.length;
-    for (var p = 0; p < Long; p++) {
-        aLol[p].index = p;
-        aLol[p].onmouseover = function() {
-            for (var j = 0; j < Long; j++) {
-                aLol[j].className = '';
-                aYgg[j].className = '';
-            }
-            aLol[this.index].className = 'bb';
-            aYgg[this.index].className = 'yg';
+    // var aLol = document.getElementById('zhxw').getElementsByTagName('li');
+    // var aYgg = document.getElementById('ssyg').getElementsByTagName('div');
+    // var Long = aLol.length;
+    // for (var p = 0; p < Long; p++) {
+    //     aLol[p].index = p;
+    //     aLol[p].onmouseover = function() {
+    //         for (var d = 0; d < Long; d++) {
+    //             aLol[d].className = '';
+    //             aYgg[d].className = '';
+    //         }
+    //         aLol[this.index].className = 'bb';
+    //         aYgg[this.index].className = 'yg';
 
-        }
-    }
+    //     }
+    // }
+    // var lis = document.getElementById("zhxw").getElementsByTagName("li");
+    // var divs = document.getElementById("ssyg").getElementsByTagName("div");
+    // for (var i = 0; i < lis.length; i++) {
+    //     lis[i].index = i;
+    //     lis[i].onclick = function() {
+    //         for (var j = 0; j < lis.length; j++) {
+    //             lis[j].className = "";
+    //         }
 
+    //         this.className = "hover";
+    //         for (var i = 0; i < divs.length; i++) {
+    //             divs[i].style.display = "none";
+    //         }
+    //         divs[this.index].style.display = "block";
+    //     }
+    // }
     /*var oYou = document.getElementById('you');
     var oBox = document.getElementById('box');
     var oTpp = document.getElementById('box').getElementsByTagName('li');
